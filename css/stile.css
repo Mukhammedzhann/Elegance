@@ -1,0 +1,166 @@
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    background-color: light;
+}
+
+
+.content {
+    width: auto;
+    height: auto;
+}
+
+.col-5 {
+    padding-top: 205px;
+}
+
+.content {
+    padding: 40px 0;
+}
+
+.content>.nav {
+    padding-top: 40px;
+}
+
+.mb-12 {
+    height: 500px;
+}
+
+.mav {
+    text-align: left;
+}
+
+.class5>.col {
+    padding: 40px;
+}
+
+.med {
+    padding-top: 40px;
+}
+
+.toast-body {
+    color: black;
+}
+
+.class3 {
+    padding-top: 40px;
+}
+
+.med {
+    z-index: 1;
+
+
+}
+
+.class3 {
+    z-index: 2;
+}
+
+.card-img-top {
+    height: 300px;
+}
+
+.content {
+    margin: 35px;
+}
+
+.row>.col1 {
+    display: flex;
+}
+
+.con>.rov>.col {
+    display: flex;
+}
+
+.classlink {
+    padding-top: 40px;
+
+}
+
+.col {
+    padding-top: 20px;
+}
+
+.content {
+    padding-top: 40px;
+}
+
+.content_h2 {
+    margin-left: 80px;
+}
+
+.foter {
+    display: flex;
+
+}
+
+.foter>ul li {
+    list-style: none;
+}
+
+.foter>ul li a {
+    width: 40px;
+    height: 40px;
+    background-color: #D5DEEF;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    margin: 0 10px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #D5DEEF;
+    z-index: 1;
+}
+
+.foter>ul li a .icon {
+    position: relative;
+    color: #262626;
+    transition: .5s;
+    z-index: 3;
+}
+
+.foter>ul li a:hover .icon {
+    color: #fff;
+    transform: rotateY(360deg);
+}
+
+.foter>ul li a:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: .5s;
+    z-index: 2;
+}
+
+.foter>ul li a:hover:before {
+    top: 0;
+}
+
+.foter>ul li:nth-child(1) a:before {
+    background: #3b5999;
+}
+
+.foter>ul li:nth-child(2) a:before {
+    background: #55acee;
+}
+
+.foter>ul li:nth-child(3) a:before {
+    background: #0077b5;
+}
+
+.foter ul li:nth-child(4) a:before {
+    background: #dd4b39;
+
+}
+footer{
+    background-color: #D5DEEF;
+
+}
